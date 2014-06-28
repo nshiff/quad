@@ -12,10 +12,10 @@ int equals( int expected, int actual ){
 	return FAIL;
 }
 
-int mySqrt(int x){
+int quad(int a, int b, int c){
 
 
-	return sqrt(x);
+	return -3;
 
 
 	
@@ -24,17 +24,15 @@ int mySqrt(int x){
 
 
 int main(int argc, char* argv[] ){
-	printf("Hello!\n");
 
 
 
-	equals( 10, mySqrt(100) );
-	equals( 0, mySqrt(0) );
+	equals( -3, quad(1, 0, -9) );
 
 
 
 
-
+	printf("good work\n");
 
 	return 0;
 }
